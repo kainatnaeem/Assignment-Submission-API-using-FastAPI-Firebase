@@ -1,0 +1,60 @@
+# =========================
+# ENV FILES (VERY IMPORTANT)
+# =========================
+.env
+.env.*
+*.env
+
+# Firebase / Secrets
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+myenv/
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# =========================
+# Logs / runtime files
+# =========================
+*.log
+*.sqlite3
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# FastAPI / Uvicorn
+# =========================
+*.pid
